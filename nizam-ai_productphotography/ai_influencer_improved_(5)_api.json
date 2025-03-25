@@ -1,7 +1,7 @@
 {
     "6": {
         "inputs": {
-            "text": "front shot of a young man sitting on a chair in a room",
+            "text": "a close up front shot of a young man, well groomed, sitting on a chair in a room",
             "clip": [
                 "38",
                 0
@@ -41,7 +41,7 @@
     },
     "31": {
         "inputs": {
-            "seed": 173805153958800,
+            "seed": 173805153958809,
             "steps": 30,
             "cfg": 1,
             "sampler_name": "euler",
@@ -71,7 +71,7 @@
     },
     "33": {
         "inputs": {
-            "text": "",
+            "text": "text, cropped body",
             "clip": [
                 "38",
                 0
@@ -254,7 +254,7 @@
     },
     "155": {
         "inputs": {
-            "image": "WhatsApp Image 2025-03-16 at 17.31.31_811fc5d9.jpg",
+            "image": "ComfyUI_00022_ (1).png",
             "upload": "image"
         },
         "class_type": "LoadImage",
@@ -474,7 +474,7 @@
     },
     "172": {
         "inputs": {
-            "seed": 777588247743311,
+            "seed": 464441261469735,
             "steps": 12,
             "cfg": 1,
             "sampler_name": "euler",
