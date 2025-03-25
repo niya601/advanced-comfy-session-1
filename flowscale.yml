@@ -177,3 +177,7 @@ normal_workflows:
     name: basic_relighting.json
     file: relighting/basic_relighting.json
     version: 0
+  - id: hovfephx9ub
+    name: ai_influencer_improved_(5).json
+    file: nizam-ai_productphotography/ai_influencer_improved_(5).json
+    version: 0
