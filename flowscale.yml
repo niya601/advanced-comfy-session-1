@@ -221,7 +221,3 @@ normal_workflows:
     name: fashion_photography_workflow.json
     file: inpainting_and_outpainting/fashion_photography_workflow.json
     version: 1
-  - id: ktthqxq6kun
-    name: product_photography_improved.json
-    file: nizam-ai_productphotography/product_photography_improved.json
-    version: 0
