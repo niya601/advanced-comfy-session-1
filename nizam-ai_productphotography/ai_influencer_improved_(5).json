@@ -40,7 +40,7 @@
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "front shot of a young man sitting on a chair in a room"
+                "a close up front shot of a young man, well groomed, sitting on a chair in a room"
             ],
             "color": "#232",
             "bgcolor": "#353"
@@ -94,15 +94,15 @@
             "id": 27,
             "type": "EmptySD3LatentImage",
             "pos": [
-                327.99237060546875,
-                553.6385498046875
+                322.408447265625,
+                498.9162902832031
             ],
             "size": [
                 315,
                 106
             ],
             "flags": {},
-            "order": 0,
+            "order": 10,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -182,7 +182,7 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                173805153958800,
+                173805153958809,
                 "increment",
                 30,
                 1,
@@ -195,15 +195,15 @@
             "id": 33,
             "type": "CLIPTextEncode",
             "pos": [
-                339.7133483886719,
-                443.8353576660156
+                317.3775634765625,
+                665.7333374023438
             ],
             "size": [
                 422.84503173828125,
                 164.31304931640625
             ],
             "flags": {
-                "collapsed": true
+                "collapsed": false
             },
             "order": 12,
             "mode": 0,
@@ -232,7 +232,7 @@
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                ""
+                "text, cropped body"
             ],
             "color": "#322",
             "bgcolor": "#533"
@@ -249,7 +249,7 @@
                 82
             ],
             "flags": {},
-            "order": 1,
+            "order": 0,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -284,7 +284,7 @@
                 117.31372833251953
             ],
             "flags": {},
-            "order": 2,
+            "order": 1,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -363,7 +363,7 @@
                 58
             ],
             "flags": {},
-            "order": 3,
+            "order": 2,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -399,7 +399,7 @@
                 58
             ],
             "flags": {},
-            "order": 4,
+            "order": 3,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -435,7 +435,7 @@
                 234
             ],
             "flags": {},
-            "order": 20,
+            "order": 21,
             "mode": 0,
             "inputs": [
                 {
@@ -486,10 +486,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "kaibioinfo/ComfyUI_AdvancedRefluxControl",
+                "cnr_id": "ComfyUI_AdvancedRefluxControl",
                 "ver": "0a87efa252ae5e8f4af1225b0e19c867f908376a",
                 "Node name for S&R": "ReduxAdvanced",
-                "cnr_id": "ComfyUI_AdvancedRefluxControl"
+                "aux_id": "kaibioinfo/ComfyUI_AdvancedRefluxControl"
             },
             "widgets_values": [
                 3,
@@ -562,10 +562,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "kaibioinfo/ComfyUI_AdvancedRefluxControl",
+                "cnr_id": "ComfyUI_AdvancedRefluxControl",
                 "ver": "0a87efa252ae5e8f4af1225b0e19c867f908376a",
                 "Node name for S&R": "ReduxAdvanced",
-                "cnr_id": "ComfyUI_AdvancedRefluxControl"
+                "aux_id": "kaibioinfo/ComfyUI_AdvancedRefluxControl"
             },
             "widgets_values": [
                 3,
@@ -638,10 +638,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "kaibioinfo/ComfyUI_AdvancedRefluxControl",
+                "cnr_id": "ComfyUI_AdvancedRefluxControl",
                 "ver": "0a87efa252ae5e8f4af1225b0e19c867f908376a",
                 "Node name for S&R": "ReduxAdvanced",
-                "cnr_id": "ComfyUI_AdvancedRefluxControl"
+                "aux_id": "kaibioinfo/ComfyUI_AdvancedRefluxControl"
             },
             "widgets_values": [
                 3,
@@ -663,7 +663,7 @@
                 58
             ],
             "flags": {},
-            "order": 5,
+            "order": 4,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -690,8 +690,8 @@
             "id": 154,
             "type": "SaveImage",
             "pos": [
-                1430.4320068359375,
-                212.5343780517578
+                1632.233642578125,
+                155.159423828125
             ],
             "size": [
                 619.2056274414062,
@@ -729,7 +729,7 @@
                 314
             ],
             "flags": {},
-            "order": 9,
+            "order": 11,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -756,7 +756,7 @@
                 "Node name for S&R": "LoadImage"
             },
             "widgets_values": [
-                "WhatsApp Image 2025-03-16 at 17.31.31_811fc5d9.jpg",
+                "ComfyUI_00022_ (1).png",
                 "image"
             ]
         },
@@ -772,7 +772,7 @@
                 314
             ],
             "flags": {},
-            "order": 10,
+            "order": 5,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -814,7 +814,7 @@
                 314
             ],
             "flags": {},
-            "order": 11,
+            "order": 6,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -846,8 +846,8 @@
             "id": 158,
             "type": "ImageResize+",
             "pos": [
-                3201.540283203125,
-                1199.1947021484375
+                3312.1015625,
+                1299.7049560546875
             ],
             "size": [
                 244.8402862548828,
@@ -916,8 +916,8 @@
             "id": 159,
             "type": "ImageConcanate",
             "pos": [
-                3668.34033203125,
-                1536.609375
+                3778.901611328125,
+                1637.11962890625
             ],
             "size": [
                 212.79220581054688,
@@ -950,10 +950,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "kijai/ComfyUI-KJNodes",
+                "cnr_id": "comfyui-kjnodes",
                 "ver": "1a4259f05206d7360be7a90145b5839d5b64d893",
                 "Node name for S&R": "ImageConcanate",
-                "cnr_id": "comfyui-kjnodes"
+                "aux_id": "kijai/ComfyUI-KJNodes"
             },
             "widgets_values": [
                 "right",
@@ -964,8 +964,8 @@
             "id": 160,
             "type": "MaskToImage",
             "pos": [
-                3267.689208984375,
-                1553.307373046875
+                3378.25048828125,
+                1653.817626953125
             ],
             "size": [
                 202.61997985839844,
@@ -1002,8 +1002,8 @@
             "id": 161,
             "type": "EmptyImage",
             "pos": [
-                3528.06298828125,
-                1282.44677734375
+                3638.624267578125,
+                1382.95703125
             ],
             "size": [
                 210,
@@ -1056,8 +1056,8 @@
             "id": 162,
             "type": "ImageToMask",
             "pos": [
-                3912.826904296875,
-                1519.205322265625
+                4023.38818359375,
+                1619.715576171875
             ],
             "size": [
                 236.39999389648438,
@@ -1275,8 +1275,8 @@
             "id": 166,
             "type": "ImageConcanate",
             "pos": [
-                3501.357177734375,
-                1075.793212890625
+                3611.91845703125,
+                1176.303466796875
             ],
             "size": [
                 210,
@@ -1310,10 +1310,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "kijai/ComfyUI-KJNodes",
+                "cnr_id": "comfyui-kjnodes",
                 "ver": "1a4259f05206d7360be7a90145b5839d5b64d893",
                 "Node name for S&R": "ImageConcanate",
-                "cnr_id": "comfyui-kjnodes"
+                "aux_id": "kijai/ComfyUI-KJNodes"
             },
             "widgets_values": [
                 "right",
@@ -1332,7 +1332,7 @@
                 82
             ],
             "flags": {},
-            "order": 6,
+            "order": 7,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -1451,7 +1451,7 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                777588247743311,
+                464441261469735,
                 "randomize",
                 12,
                 1,
@@ -1497,8 +1497,8 @@
             "id": 174,
             "type": "ImageAndMaskPreview",
             "pos": [
-                4232.3388671875,
-                1159.4808349609375
+                4342.89990234375,
+                1259.9910888671875
             ],
             "size": [
                 325.834716796875,
@@ -1529,10 +1529,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "kijai/ComfyUI-KJNodes",
+                "cnr_id": "comfyui-kjnodes",
                 "ver": "1a4259f05206d7360be7a90145b5839d5b64d893",
                 "Node name for S&R": "ImageAndMaskPreview",
-                "cnr_id": "comfyui-kjnodes"
+                "aux_id": "kijai/ComfyUI-KJNodes"
             },
             "widgets_values": [
                 0.5,
@@ -1546,8 +1546,8 @@
             "id": 175,
             "type": "ImageResize+",
             "pos": [
-                2805.9443359375,
-                1139.7266845703125
+                2916.505615234375,
+                1240.2369384765625
             ],
             "size": [
                 255.87393188476562,
@@ -1613,8 +1613,8 @@
             "id": 176,
             "type": "ResizeMask",
             "pos": [
-                3161.93701171875,
-                1479.064697265625
+                3272.498291015625,
+                1579.574951171875
             ],
             "size": [
                 261.642333984375,
@@ -1667,10 +1667,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "kijai/ComfyUI-KJNodes",
+                "cnr_id": "comfyui-kjnodes",
                 "ver": "1a4259f05206d7360be7a90145b5839d5b64d893",
                 "Node name for S&R": "ResizeMask",
-                "cnr_id": "comfyui-kjnodes"
+                "aux_id": "kijai/ComfyUI-KJNodes"
             },
             "widgets_values": [
                 512,
@@ -1684,8 +1684,8 @@
             "id": 177,
             "type": "ImpactGaussianBlurMask",
             "pos": [
-                3833.3798828125,
-                1335.2763671875
+                3943.941162109375,
+                1435.78662109375
             ],
             "size": [
                 315,
@@ -1713,10 +1713,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "ltdrdata/ComfyUI-Impact-Pack",
+                "cnr_id": "comfyui-impact-pack",
                 "ver": "8.8.1",
                 "Node name for S&R": "ImpactGaussianBlurMask",
-                "cnr_id": "comfyui-impact-pack"
+                "aux_id": "ltdrdata/ComfyUI-Impact-Pack"
             },
             "widgets_values": [
                 50,
@@ -1769,8 +1769,8 @@
             "id": 182,
             "type": "InpaintCrop",
             "pos": [
-                2292.00830078125,
-                1110.6378173828125
+                2402.569580078125,
+                1211.1480712890625
             ],
             "size": [
                 443.4000244140625,
@@ -1824,10 +1824,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "lquesada/ComfyUI-Inpaint-CropAndStitch",
+                "cnr_id": "comfyui-inpaint-cropandstitch",
                 "ver": "1.0.0",
                 "Node name for S&R": "InpaintCrop",
-                "cnr_id": "comfyui-inpaint-cropandstitch"
+                "aux_id": "lquesada/ComfyUI-Inpaint-CropAndStitch"
             },
             "widgets_values": [
                 0,
@@ -1887,10 +1887,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "lquesada/ComfyUI-Inpaint-CropAndStitch",
+                "cnr_id": "comfyui-inpaint-cropandstitch",
                 "ver": "1.0.0",
                 "Node name for S&R": "InpaintStitch",
-                "cnr_id": "comfyui-inpaint-cropandstitch"
+                "aux_id": "lquesada/ComfyUI-Inpaint-CropAndStitch"
             },
             "widgets_values": [
                 "bislerp"
@@ -1945,8 +1945,8 @@
             "id": 188,
             "type": "SaveImage",
             "pos": [
-                4715.26220703125,
-                417.01171875
+                4713.78173828125,
+                432.87530517578125
             ],
             "size": [
                 459.9472961425781,
@@ -2041,7 +2041,7 @@
                 129.3773956298828
             ],
             "flags": {},
-            "order": 16,
+            "order": 17,
             "mode": 0,
             "inputs": [
                 {
@@ -2101,7 +2101,7 @@
                 82
             ],
             "flags": {},
-            "order": 7,
+            "order": 8,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -2117,10 +2117,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "ltdrdata/ComfyUI-Impact-Pack",
+                "cnr_id": "comfyui-impact-pack",
                 "ver": "6e3d07277bfc0817150c8daa2e3b6fc3595c9745",
                 "Node name for S&R": "SAMLoader",
-                "cnr_id": "comfyui-impact-pack"
+                "aux_id": "ltdrdata/ComfyUI-Impact-Pack"
             },
             "widgets_values": [
                 "sam_vit_b_01ec64.pth",
@@ -2139,7 +2139,7 @@
                 59.566593170166016
             ],
             "flags": {},
-            "order": 8,
+            "order": 9,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -2176,7 +2176,7 @@
                 246
             ],
             "flags": {},
-            "order": 19,
+            "order": 20,
             "mode": 0,
             "inputs": [
                 {
@@ -2205,7 +2205,7 @@
                 129.37229919433594
             ],
             "flags": {},
-            "order": 17,
+            "order": 16,
             "mode": 0,
             "inputs": [
                 {
@@ -2265,7 +2265,7 @@
                 246
             ],
             "flags": {},
-            "order": 21,
+            "order": 19,
             "mode": 0,
             "inputs": [
                 {
@@ -2286,8 +2286,8 @@
             "id": 197,
             "type": "GroundingDinoSAMSegment (segment anything)",
             "pos": [
-                1806.514404296875,
-                1127.350830078125
+                1917.0758056640625,
+                1227.861083984375
             ],
             "size": [
                 352.79998779296875,
@@ -2419,8 +2419,8 @@
             "id": 203,
             "type": "PreviewImage",
             "pos": [
-                3804.85400390625,
-                1003.5494995117188
+                3915.415283203125,
+                1104.059814453125
             ],
             "size": [
                 343.96722412109375,
@@ -2448,8 +2448,8 @@
             "id": 204,
             "type": "PreviewImage",
             "pos": [
-                1883.94970703125,
-                1353.5670166015625
+                1994.5111083984375,
+                1454.0772705078125
             ],
             "size": [
                 210,
@@ -2477,8 +2477,8 @@
             "id": 205,
             "type": "PreviewImage",
             "pos": [
-                4229.0712890625,
-                1554.3614501953125
+                4339.63232421875,
+                1654.8717041015625
             ],
             "size": [
                 210,
@@ -3192,8 +3192,8 @@
             "id": 5,
             "title": "Inpaint Crop",
             "bounding": [
-                1745.8671875,
-                936.1820068359375,
+                1856.4285888671875,
+                1036.6922607421875,
                 2852.40966796875,
                 878.5986938476562
             ],
@@ -3244,10 +3244,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.45949729863574745,
+            "scale": 0.6115909044842043,
             "offset": [
-                475.4462788527135,
-                -48.53898409708586
+                395.99760395814405,
+                -412.5026510892251
             ]
         }
     },
