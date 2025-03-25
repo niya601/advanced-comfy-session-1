@@ -124,6 +124,15 @@ workflows:
     inputs: []
     outputs: []
     skip_preprocess: true
+  - id: kpn6bkoblx9
+    name: ai_influencer_improved_(5)_api.json
+    file: nizam-ai_productphotography/ai_influencer_improved_(5)_api.json
+    version: 1
+    description: ''
+    inputs: []
+    outputs: []
+    skip_preprocess: true
+    advancedConfig: false
 normal_workflows:
   - id: buctkh11mvs
     name: controlnet_connection.json
@@ -180,4 +189,4 @@ normal_workflows:
   - id: hovfephx9ub
     name: ai_influencer_improved_(5).json
     file: nizam-ai_productphotography/ai_influencer_improved_(5).json
-    version: 0
+    version: 1
