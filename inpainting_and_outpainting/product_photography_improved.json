@@ -495,7 +495,7 @@
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "text, watermark"
+                "text, watermark, blurry details, low resolution, poor lighting, harsh shadows, overexposure, underexposure, cluttered background, distracting elements, distorted proportions, incorrect reflections, noisy textures, chromatic aberration, lens flare, color banding, pixelation, motion blur, low contrast, inconsistent lighting, camera tilt, poor composition, amateur setup, watermark, text overlay, logos, people, hands, animals"
             ]
         },
         {
@@ -758,10 +758,10 @@
                 }
             ],
             "properties": {
-                "cnr_id": "comfyui_controlnet_aux",
+                "aux_id": "Fannovel16/comfyui_controlnet_aux",
                 "ver": "1e9eac6377c882da8bb360c7544607036904362c",
                 "Node name for S&R": "LineArtPreprocessor",
-                "aux_id": "Fannovel16/comfyui_controlnet_aux"
+                "cnr_id": "comfyui_controlnet_aux"
             },
             "widgets_values": [
                 "disable",
@@ -2990,10 +2990,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 1.1,
+            "scale": 0.7513148009015783,
             "offset": [
-                348.52781037275685,
-                -1105.2488359269257
+                -216.15541114585483,
+                -992.5526867384294
             ]
         }
     },
