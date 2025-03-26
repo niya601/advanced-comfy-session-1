@@ -495,7 +495,7 @@
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "text, watermark, blurry details, low resolution, poor lighting, harsh shadows, overexposure, underexposure, cluttered background, distracting elements, distorted proportions, incorrect reflections, noisy textures, chromatic aberration, lens flare, color banding, pixelation, motion blur, low contrast, inconsistent lighting, camera tilt, poor composition, amateur setup, watermark, text overlay, logos, people, hands, animals"
+                "text, watermark, blurry details, low resolution, poor lighting, harsh shadows, overexposure, underexposure, cluttered background, distracting elements, distorted proportions, incorrect reflections, noisy textures, chromatic aberration, lens flare, color banding, pixelation, motion blur, low contrast, inconsistent lighting, camera tilt, poor composition, amateur setup, watermark, text overlay, logos, people, hands, animals,nsfw"
             ]
         },
         {
@@ -3122,10 +3122,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.42409761837248494,
+            "scale": 0.90909090909091,
             "offset": [
-                -320.6434806718356,
-                -408.23794856359405
+                -223.96719735283602,
+                -1068.4204711675943
             ]
         }
     },
