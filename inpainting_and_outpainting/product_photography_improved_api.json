@@ -133,7 +133,7 @@
     },
     "20": {
         "inputs": {
-            "seed": 654689829781574,
+            "seed": 651852583486906,
             "steps": 20,
             "cfg": 8,
             "sampler_name": "euler",
@@ -213,7 +213,7 @@
             "interpolation": "nearest",
             "method": "keep proportion",
             "condition": "always",
-            "multiple_of": 0,
+            "multiple_of": 8,
             "image": [
                 "65",
                 0
@@ -359,7 +359,7 @@
     },
     "35": {
         "inputs": {
-            "seed": 786506531041769,
+            "seed": 89508165595435,
             "steps": 40,
             "cfg": 2,
             "sampler_name": "dpmpp_2m_sde",
@@ -777,7 +777,7 @@
     },
     "65": {
         "inputs": {
-            "image": "example.png",
+            "image": "360_F_110045173_QgmA3gg5OwTlLNQBqmPdFnkh6sPvsvt8.jpg",
             "upload": "image",
             "label": "Input Product Image"
         },
@@ -788,12 +788,56 @@
     },
     "66": {
         "inputs": {
-            "default_value": "",
+            "default_value": "a hand bag kept on a table, studio light",
             "label": "Background Prompt"
         },
         "class_type": "FSLoadText",
         "_meta": {
             "title": "[FS]⚡Load Text (Input)"
+        }
+    },
+    "67": {
+        "inputs": {
+            "width": 512,
+            "height": 512,
+            "batch_size": 1
+        },
+        "class_type": "EmptyLatentImage",
+        "_meta": {
+            "title": "Empty Latent Image"
+        }
+    },
+    "68": {
+        "inputs": {
+            "width": 512,
+            "height": 512,
+            "batch_size": 1
+        },
+        "class_type": "EmptyLatentImage",
+        "_meta": {
+            "title": "Empty Latent Image"
+        }
+    },
+    "69": {
+        "inputs": {
+            "width": 512,
+            "height": 512,
+            "batch_size": 1
+        },
+        "class_type": "EmptyLatentImage",
+        "_meta": {
+            "title": "Empty Latent Image"
+        }
+    },
+    "70": {
+        "inputs": {
+            "width": 512,
+            "height": 512,
+            "batch_size": 1
+        },
+        "class_type": "EmptyLatentImage",
+        "_meta": {
+            "title": "Empty Latent Image"
         }
     }
 }
