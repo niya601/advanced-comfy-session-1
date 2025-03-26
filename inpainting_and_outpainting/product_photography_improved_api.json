@@ -163,7 +163,7 @@
     },
     "21": {
         "inputs": {
-            "text": "text, watermark, blurry details, low resolution, poor lighting, harsh shadows, overexposure, underexposure, cluttered background, distracting elements, distorted proportions, incorrect reflections, noisy textures, chromatic aberration, lens flare, color banding, pixelation, motion blur, low contrast, inconsistent lighting, camera tilt, poor composition, amateur setup, watermark, text overlay, logos, people, hands, animals,nsfw",
+            "text": "text, watermark, blurry details, low resolution, poor lighting, harsh shadows, overexposure, underexposure, cluttered background, distracting elements, distorted proportions, incorrect reflections, noisy textures, chromatic aberration, lens flare, color banding, pixelation, motion blur, low contrast, inconsistent lighting, camera tilt, poor composition, amateur setup, watermark, text overlay, logos, people, hands, animals, nsfw",
             "clip": [
                 "17",
                 1
