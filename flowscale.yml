@@ -133,6 +133,38 @@ workflows:
     outputs: []
     skip_preprocess: true
     advancedConfig: true
+  - id: jw8wyfizh5a
+    name: product_photography_improved_api.json
+    file: nizam-ai_productphotography/product_photography_improved_api.json
+    version: 2
+    description: ''
+    inputs:
+      - path: 64.inputs.filename_prefix
+        label: filename_prefix
+        parameter_name: filename_prefix_26259
+        type: string
+        demo_type: text
+        category: output
+        randomize: true
+      - path: 65.inputs.image
+        label: Input Product Image
+        parameter_name: image_25024
+        type: string
+        demo_type: image
+        category: input
+        randomize: false
+      - path: 66.inputs.default_value
+        label: Background Prompt
+        parameter_name: default_value_42257
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+    outputs:
+      - label: Output Image
+        demo_type: image
+    skip_preprocess: true
+    advancedConfig: false
 normal_workflows:
   - id: buctkh11mvs
     name: controlnet_connection.json
@@ -181,7 +213,7 @@ normal_workflows:
   - id: n3thl83t7ye
     name: product_photography_improved.json
     file: nizam-ai_productphotography/product_photography_improved.json
-    version: 1
+    version: 2
   - id: arqirh4o2b
     name: basic_relighting.json
     file: relighting/basic_relighting.json
