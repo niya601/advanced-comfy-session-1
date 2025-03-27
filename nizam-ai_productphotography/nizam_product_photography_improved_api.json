@@ -133,7 +133,7 @@
     },
     "20": {
         "inputs": {
-            "seed": 654689829781574,
+            "seed": 266793647005988,
             "steps": 20,
             "cfg": 8,
             "sampler_name": "euler",
@@ -213,7 +213,7 @@
             "interpolation": "nearest",
             "method": "keep proportion",
             "condition": "always",
-            "multiple_of": 0,
+            "multiple_of": 8,
             "image": [
                 "65",
                 0
@@ -359,7 +359,7 @@
     },
     "35": {
         "inputs": {
-            "seed": 786506531041769,
+            "seed": 190099924723112,
             "steps": 40,
             "cfg": 2,
             "sampler_name": "dpmpp_2m_sde",
