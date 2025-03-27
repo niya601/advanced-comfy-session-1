@@ -136,7 +136,7 @@ workflows:
   - id: jw8wyfizh5a
     name: nizam_product_photography_improved_api.json
     file: nizam-ai_productphotography/nizam_product_photography_improved_api.json
-    version: 4
+    version: 5
     description: ''
     inputs:
       - path: 64.inputs.filename_prefix
@@ -213,7 +213,7 @@ normal_workflows:
   - id: n3thl83t7ye
     name: nizam_product_photography_improved.json
     file: nizam-ai_productphotography/nizam_product_photography_improved.json
-    version: 4
+    version: 5
   - id: arqirh4o2b
     name: basic_relighting.json
     file: relighting/basic_relighting.json
